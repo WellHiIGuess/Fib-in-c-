@@ -12,7 +12,7 @@ int main() {
         } else {
             nums.push_back(nums[i - 2] + nums[i - 1]);
         }
-
-        std::cout << nums[i] << "\n";
     }
+
+    std::cout << nums[nums.size() - 1] << "\n";
 }
