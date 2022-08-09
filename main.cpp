@@ -3,7 +3,7 @@
 
 
 int main() {
-    int length = 100;
+    int length = 1000000000;
     std::vector<std::uint64_t> nums;
 
     for (int i = 0; i < length; i++) {
